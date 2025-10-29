@@ -1,0 +1,30 @@
+<htm>
+    <head>
+        <script>
+            function login(){
+                alert("You are logged in")
+            }
+        </script>
+        <style>
+            .box{
+                height: 200px;
+                width: 250px;
+                margin: 200px 625px;
+                border: 2px solid black;
+            }
+            .login:hover{
+                text-decoration: underline;
+                cursor: pointer;
+            }
+        </style>
+    </head>
+    <body style="background-color: aqua;">
+        <div class="box" style="background-image: url(background.jpg); background-repeat: no-repeat; object-fit: fill;">
+           <form>
+            <input type="email" placeholder="Email" style= " height: 30px; margin-top: 30px; margin-left: 40px;"></input><br>
+            <input type="password" placeholder="Password" style=" height: 30px; margin-top: 30px; margin-left: 40px;"></input>
+            <button onclick="login()" type="submit" style="background-color: orangered; color:white; margin-left: 100px; margin-top: 30px;">LOGIN</input>
+           </form>
+        </div>
+    </body>
+</htm>
